@@ -1,0 +1,1 @@
+import{x as o,w as e}from"./index-DlkwG61T.js";const r=o({}),i={emit(o,e){o?r[o]=e:console.error("事件名称不能为空")},on(o,i){o&&"function"==typeof i?e((()=>r[o]),(o=>{void 0!==o&&i(o)}),{immediate:!0}):console.error("事件名称不能为空且回调必须为函数")}};export{i as e};
